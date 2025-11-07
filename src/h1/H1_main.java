@@ -34,11 +34,9 @@ public class H1_main {
             warnhinweis = false;
         }
         System.out.println("Guthaben: " + guthaben);
-        System.out.println("Monatlicher Eingang: " + monEingang);
-        System.out.println("Initiales Rating: -2 (im Beispiel)");
-        System.out.println("--- Ergebnisse nach Berechnung ---");
-        System.out.println("Negativ: " + negativ + " (Erwartet: true)");
-        System.out.println("Aktuelles Rating: " + rating + " (Erwartet: -1)");
-        System.out.println("Warnhinweis: " + warnhinweis + " (Erwartet: false)");
+        System.out.println("Mon Eingang: " + monEingang);
+        System.out.println("Rating: " + rating);
+        System.out.println("Warnhinweis: " + warnhinweis);
+        System.out.println("Negativ: " + negativ);
     }
 }
